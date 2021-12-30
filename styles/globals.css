@@ -1,0 +1,250 @@
+html,
+:root {
+  --text-color: #333;
+  --border-color: #dbdbdb;
+}
+
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: green;
+  background: linear-gradient(to right, #4daf54, #3d8880);
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* main {
+  height: 100%;
+  width: 850px;
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.search-box {
+  background: rgba(233, 215, 215, 0.836);
+  width: 211px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.5s ease;
+}
+
+.search-box__input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: transparent;
+  padding: 5px 30px 5px 5px;
+  outline: none;
+}
+
+.search-box__btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-box__open {
+  width: 211px;
+}
+
+.auth-form {
+  width: 500px;
+  height: 325px;
+  background-color: #ffff;
+  padding: 0 32px;
+  border-radius: 10px 10px;
+}
+
+.auth-form-register {
+  width: 500px;
+  height: 360px;
+  background-color: #ffff;
+  padding: 0 32px;
+  border-radius: 10px 10px;
+}
+
+.auth-form__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-form__heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.auth-form__swith-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: red;
+  cursor: pointer;
+}
+
+.auth-form__input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 0 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.auth-form__group {
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.btn {
+  font-weight: 500;
+  margin-left: 5px;
+  min-width: 120px;
+  height: 36px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  padding: 0;
+  border: none;
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn.btn--normal:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--login {
+  color: #ffff;
+  background-color: red;
+}
+
+.btn.btn-size-s {
+  height: 30px;
+  font-size: 18px;
+}
+
+.auth-form__help {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 5px;
+}
+
+.auth-form__help-link {
+  text-decoration: none;
+  color: #939393;
+}
+
+.auth-form__help-forgot {
+  color: rgb(247, 86, 86);
+}
+
+.auth-form__help-separate {
+  display: block;
+  height: 18px;
+  margin: 4px 16px 0;
+  border-left: 1px solid #eaeaea;
+}
+
+.format {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.auth-form__controls {
+  margin-top: 30px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auth-form__controls-back {
+  margin-right: 8px;
+}
+
+.auth-form__socials {
+  margin-top: 12px;
+  width: 100%;
+  height: 50px;
+  background-color: #ffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth-form__socials-icon {
+  margin-left: 5px;
+}
+
+.auth-form__socials-icon.google {
+  color: red;
+  opacity: 80%;
+}
+
+.auth-form__socials-title {
+  margin: 0 10px;
+}
+
+.auth-form__socials-facebook:hover {
+  background-color: #3a5a98;
+  background: linear-gradient(
+    to right,
+    #3a5a98,
+    rgb(122, 121, 121),
+    #3a5a98,
+    rgb(122, 121, 121)
+  );
+  color: #ffff;
+}
+
+.auth-form__socials-google:hover {
+  background: linear-gradient(to right, red, yellow, green, blue);
+  color: #ffff;
+}
+
+.navbar-brand {
+  color: #4daf54;
+}
+
+.to-auth-form__guest {
+  width: 260px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin: 0 12px;
+}
+
+.btn-to-auth-form {
+  height: 30px;
+}
+
+.btn.btn-to-auth-form:hover {
+  background: linear-gradient(to right, rgb(116, 241, 116), rgb(158, 158, 248));
+}
