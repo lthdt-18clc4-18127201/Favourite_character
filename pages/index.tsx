@@ -91,7 +91,7 @@ export default function Home({ data }) {
             })}
         </div>
         <p>
-          <button className="btn btn--normal"onClick={handleLoadMore}>Load More</button>
+          <button className="btn btn-to-auth-form"onClick={handleLoadMore}>Load More</button>
         </p>
       </main>
     </div>

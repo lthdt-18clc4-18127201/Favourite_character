@@ -34,10 +34,10 @@ export default function Nav() {
                         </Link>
                     </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a className="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
                         </a>
-                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a className="dropdown-item" href="#">Action</a>
                         <a className="dropdown-item" href="#">Another action</a>
                         <div className="dropdown-divider"></div>
