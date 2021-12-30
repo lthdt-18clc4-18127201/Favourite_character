@@ -5,7 +5,8 @@ import EmbedVideoCom from './EmbedVideo';
 import SmallDescibeBoxCom from './SmallDescibeBox';
 
 
-export default function ShowCharDetail(){
+export default function ShowCharDetail({data_1}){
+    console.log('data_1', data_1)
     return(
         // <div className="Home_grid__GxQ85">
         //     <div className="Home_card___LpL1">
@@ -20,9 +21,6 @@ export default function ShowCharDetail(){
                 <h1>
                     Pikachu Gul
                 </h1>
-                    
-                
-                {/* <img src="/images/pikachu_.png"/> */}
                 <p>
                 Pikachu[c] is a species of Pokémon, fictional creatures that appear in an assortment of media of the Pokémon franchise by The Pokémon Company. Pikachu is a yellow mouse-like Pokémon with powerful electrical abilities. Pikachu is the best-known species of Pokémon, largely due to its appearance in the anime series as the starter Pokémon of the protagonist, Ash Ketchum. Pikachu is a major character of the Pokémon franchise as well as its mascot, and has become an icon of Japanese pop culture in recent years, as well as one of the major mascots for Nintendo.
 
@@ -32,11 +30,10 @@ export default function ShowCharDetail(){
                 </p>
 
             </div>
-            <SmallDescibeBoxCom/>
+            <SmallDescibeBoxCom data_2={data_1}/>
             <EmbedVideoCom/>
             
           
         </div>
-        
     )
 }
