@@ -248,3 +248,50 @@ a {
 .btn.btn-to-auth-form:hover {
   background: linear-gradient(to right, rgb(116, 241, 116), rgb(158, 158, 248));
 }
+
+
+li {
+  list-style-type: none;
+}
+
+
+.gulpinltestbutton{
+  border: 4px solid rgba(255, 255, 255, 0);
+}
+.gulpinL_main_contener{
+  /* width: 1140px; */
+  margin: 0 auto;
+  /* border: 20px solid rgb(17, 230, 63); */
+}
+
+.gulpinL_contener_body{
+  width: 75%;
+  /* border: 20px solid rgb(20, 45, 185); */
+}
+
+.gulpinL_contener_rightbody{
+  position: absolute;
+  /* margin-top:80px; */
+  margin: auto;
+  margin-top:80px;
+  padding: 0 0 20px 20px;
+  width: 25%;
+  right:0;
+  top:0;
+  /* display: block; */
+  border: 5px solid rgb(0, 0, 0); 
+}
+.gulpinL_contener_auto_img{
+
+  width: 1px;
+  height: 1px;
+  /* display: block; */
+ 
+  /* border: 1 px solid rgba(126, 8, 236, 0); */
+}
+
+.gulpinL_text_on_center{
+  display: block;
+  margin:0 auto;
+}
+
